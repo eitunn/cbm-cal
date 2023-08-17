@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+input {
+  width: 180px;
+  height: 30px;
+  padding: 0 10px;
+}
+
+.selectBox {
+  width: 80px;
+  height: 30px;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  font-size: 0.8rem;
+  border-radius: 10px;
+  background-color: #cabbe9;
+  border-color: #cabbe9;
+  text-transform: uppercase;
+}
+.clearBtn {
+  background-color: #f3cf7a;
+  border-color: #f3cf7a;
+}
+
+.currentAmount {
+  color: blue;
+}
+#currentAmount,
+#exAmount {
+  color: black;
+}
+
+.exAmount {
+  color: red;
+}
+
+

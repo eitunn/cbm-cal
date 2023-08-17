@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exchange Calculator</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>Exchange Calculator</h1>
+
+      <br /><br />
+
+      <select id="from" class="selectBox currentAmount">
+        <option value="MMK">MMK</option>
+        <option value="USD">USD</option>
+        <option value="SGD">SGD</option>
+        <option value="EUR">EUR</option>
+        <option value="JPY">JPY</option>
+      </select>
+
+      <input type="number" id="userInput" placeholder="Type Money Amount" />
+
+      <select id="to" class="selectBox exAmount">
+        <option value="MMK">MMK</option>
+        <option value="USD" selected>USD</option>
+        <option value="SGD">SGD</option>
+        <option value="EUR">EUR</option>
+        <option value="JPY">JPY</option>
+      </select>
+
+      <br /><br />
+
+      <button id="calculateBtn" class="btn">Calculate</button>
+      <button id="clearBtn" class="btn clearBtn">clear</button>
+
+      <br /><br />
+
+      <h3 class="currentAmount">
+        Current Amount : <span id="currentAmount"></span>
+      </h3>
+
+      <br />
+      <h3 class="exAmount">Exchange Amount : <span id="exAmount"></span></h3>
+    </main>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
